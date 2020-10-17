@@ -1,0 +1,103 @@
+/*Layout*/
+html{
+    height: 100%;
+}
+body{
+    line-height: 30px;
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(45deg, #00DBDE 0%, #FC00FF 100%);
+    background-repeat: no-repeat;
+}
+div.form{
+    display: block;
+    text-align: center;
+}
+form{
+    width: 330px;
+    background-color: white;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 15px 40px 35px 40px;
+}
+input.submit{
+    text-align: center;
+    
+}
+div.submit{
+    display: block;
+    text-align: center;
+}
+header{
+        display: block;
+        text-align: center;
+}
+
+#budget{
+
+}
+/*Fonts*/
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+}
+input, select, textarea, submit {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 20px 0px;
+    outline: none;
+}
+input, select, textarea{
+    font-size: 14px;
+}
+select{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url("double-arrow.png");
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+#submit{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.budget{
+    font-family: 'Montserrat', sans-serif;
+}
+/*Borders*/
+
+form{
+    border-radius: 10px;
+}
+input, textarea, select{
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+}
+#submit{
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+/*Colors*/
+
+#submit{
+    color: #fff;
+    background-image: linear-gradient(45deg, #FC00FF 0%, #00DBDE 100%);
+    box-shadow: none;
+}
+#submit:hover{
+    color: #fff;
+    background-image: linear-gradient(45deg, #00DBDE 0%,  #FC00FF 100%);
+}

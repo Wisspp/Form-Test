@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<header>
+    <br>
+    <br>
+</header>
+<body>
+    <div class="form">
+    <form name="Form1" action="" method="GET">
+        <header>
+            <h1>Say Hello!</h1>
+        </header>
+        <label for="name">Your Name</label>            <br>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+        <br>
+        <label for="services">Needed Services</label>
+        <br>
+        <select name="services" id="services" required>
+            <option value="choose services" disabled selected>Choose Services</option>
+            <option value="">Flash</option>
+            <option value="">Custom half sleeve</option>
+            <option value="">Custom full sleeve</option>
+            <option value="">Cover up</option>
+        </select>
+        <br>
+        <label for="budget">Budget</label>
+        <br>
+        <select name="budget" id="budget" required>
+            <option value="select budget" disabled selected>Select Budget</option>
+            <option value="">$100-400</option>
+            <option value="">$400-800</option>
+            <option value="">$800-1200</option>
+            <option value="">$1200-1600</option>
+        </select>
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" id="message" rows="4" cols="47" placeholder="Your message here..." required></textarea>
+        <br>
+        <div class="submit">
+        <input type="submit" value="Submit  &#8594;" method="POST" id="submit">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
